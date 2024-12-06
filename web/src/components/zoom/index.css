@@ -1,0 +1,13 @@
+.ol-zoom-in,
+.ol-zoom-out,
+.ol-rotate,
+.ol-attribution {
+  display: none;
+}
+
+#zoomContainer {
+  position: absolute;
+  z-index: 1000;
+  right: 50;
+  bottom: 50;
+}
