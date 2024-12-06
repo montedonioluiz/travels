@@ -1,10 +1,9 @@
-import "./index.css";
-
 import { Map as olMap } from "ol";
 import { useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 
 import Map from "@/components/map";
+import AuthLayout from "@/layouts/auth";
 import { generateMap } from "@/ol/Map";
 import Contexts from "@/contexts/provider";
 
@@ -27,8 +26,10 @@ export default function Index() {
   });
 
   return (
-    <Contexts contexts={contexts}>
-      <Map />
-    </Contexts>
+    <AuthLayout>
+      <Contexts contexts={contexts}>
+        <Map />
+      </Contexts>
+    </AuthLayout>
   );
 }

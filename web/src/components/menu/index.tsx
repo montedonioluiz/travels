@@ -1,4 +1,11 @@
+import { FaSignOutAlt } from "react-icons/fa";
+
 export default function Menu() {
-  // TODO import icons
-  return <button className="absolute z-50 top-2 right-4">H</button>;
+  return (
+    <div className="absolute z-50 right-4 top-4">
+      <button className="border-2 border-zinc-300 w-8 bg-zinc-300 rounded">
+        <FaSignOutAlt size={20} className="mx-auto" />
+      </button>
+    </div>
+  );
 }
