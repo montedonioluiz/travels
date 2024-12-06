@@ -6,5 +6,5 @@ interface AuthLayoutProps {
   children: ReactNode;
 }
 export default function AuthLayout({ children }: AuthLayoutProps) {
-  return <div>{children}</div>;
+  return <div id="AuthLayoutContainer">{children}</div>;
 }

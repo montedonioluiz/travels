@@ -4,7 +4,9 @@
 
 html,
 body,
-#__next {
+#__next,
+#UnauthLayoutContainer,
+#AuthLayoutContainer {
   height: 100vh;
   overflow-y: hidden;
 }

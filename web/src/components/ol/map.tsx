@@ -1,5 +1,5 @@
-import Zoom from "@/components/zoom";
-import Menu from "@/components/menu";
+import Zoom from "@/components/ol/zoom";
+import Menu from "@/components/ol/signOutMenu";
 
 export default function Map() {
   return (

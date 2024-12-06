@@ -7,6 +7,11 @@ interface UnauthLayoutProps {
 }
 export default function UnauthLayout({ children }: UnauthLayoutProps) {
   return (
-    <div className="flex justify-center items-center h-screen">{children}</div>
+    <div id="UnauthLayoutContainer">
+      <div className="flex flex-row min-h-screen justify-center items-center">
+        {/* TODO need to center vertically */}
+        {children}
+      </div>
+    </div>
   );
 }
