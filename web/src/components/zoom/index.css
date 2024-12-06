@@ -4,10 +4,3 @@
 .ol-attribution {
   display: none;
 }
-
-#zoomContainer {
-  position: absolute;
-  z-index: 1000;
-  right: 50;
-  bottom: 50;
-}
