@@ -10,7 +10,7 @@ export default function SignOutMenu() {
   };
 
   return (
-    <div className="absolute z-50 right-4 top-4">
+    <div className="map-overlay right-4 top-4">
       <button
         className="border-2 border-zinc-300 w-8 bg-zinc-300 rounded"
         onClick={signOut}

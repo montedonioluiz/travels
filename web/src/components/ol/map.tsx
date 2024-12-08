@@ -1,11 +1,15 @@
+import "@/global.css";
+
 import Zoom from "@/components/ol/zoom";
-import Menu from "@/components/ol/signOutMenu";
+import TripsMenu from "@/components/views/trips-menu";
+import SignOutMenu from "@/components/ol/sign-out-menu";
 
 export default function Map() {
   return (
     <div id="map" className="h-full">
-      <Menu />
+      <SignOutMenu />
       <Zoom />
+      <TripsMenu />
     </div>
   );
 }
